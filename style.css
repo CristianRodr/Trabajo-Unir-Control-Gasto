@@ -32,6 +32,7 @@ nav {
 
 .logo {
   height: 5.25rem;
+  margin-bottom: 17px;
 }
 
 .login {
@@ -88,10 +89,39 @@ nav {
   gap: 2rem;
 
 
-  /*opacity: 0;*/
+  opacity: 0;
   transition: all 1s;
 }
 
+/*--------------*/
+.user {
+  border: 2px solid #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+  margin: 0 auto;
+
+  text-align: center;
+}
+
+.user h3 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.user h4 {
+  color: #666;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.user p {
+  color: #888;
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+/*-------------*/
 .balance {
   grid-column: 1 / span 2;
   display: flex;
@@ -147,11 +177,11 @@ nav {
   color: #666;
 }
 
-.movements__type--deposit {
+.movements__type--deposito {
   background-image: linear-gradient(to top left, #39b385, #9be15d);
 }
 
-.movements__type--withdrawal {
+.movements__type--retiro {
   background-image: linear-gradient(to top left, #e52a5a, #ff585f);
 }
 
